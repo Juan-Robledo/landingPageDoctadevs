@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+
+.contenedor{
+    width: 1200px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padre{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.hijo{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+
+}
+
+.color{
+    width: 50%;
+    background-color: #EED870;
+}
+
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.hijo1{
+    width: 25%;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+}
+
+.vacio{
+    width: 25%;
+    background-color: #EED870;
+}
+
+
+.z{
+    width: 800px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.x span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.c{
+    width: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.c p{
+    font-size: 3.5rem;
+}
+
+.c span{
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.padre{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hijo{
+    width: 70%;
+}
+
+.hijo1{
+    width: 30%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}*/
