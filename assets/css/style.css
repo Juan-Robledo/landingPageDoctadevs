@@ -45,8 +45,8 @@
 /* establecemos los estilos del main*/
 
 .padre{
-    padding-top: 30px;
-    height: 400px;
+    padding-top: 10px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -81,14 +81,17 @@ h2 span{
 
 .color{
     width: 50%;
+    height: 45px;
     background-color: #EED870;
 }
 
 .bold{
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.9rem;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: 900;
+    text-align: center;
 }
 
 
@@ -102,13 +105,13 @@ h2 span{
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     margin-bottom: 15px;
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .vacio{
@@ -122,7 +125,7 @@ p{
 /* establece los estilos de la clase linea*/
 
 .linea{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -138,9 +141,9 @@ p{
 }
 
 .c{
-    width: 30px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .c p{
@@ -174,7 +177,7 @@ p{
     width: 80%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     text-transform: uppercase;
     letter-spacing: 15px;
     color: #EED870;
@@ -213,24 +216,23 @@ form{
 }
 
 [type=text]{
-    width: 300px;
-    height: 20px;
-    margin-top: 20px;
+    width: 400px;
+    height: 25px;
     border:0;
     border-radius: 3px;
 }
 
 [type=email]{
-    width: 300px;
-    height: 20px;
+    width: 400px;
+    height: 25px;
     margin-top: 20px;
     border: 0;
     border-radius: 3px;
 }
 
 [type=tel]{
-    width: 300px;
-    height: 20px;
+    width: 400px;
+    height: 25px;
     margin-top: 20px;
     border:0;
     border-radius: 3px;
